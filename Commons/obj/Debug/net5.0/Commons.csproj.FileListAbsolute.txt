@@ -10,3 +10,15 @@ C:\Users\hp\source\repos\INEC\Commons\obj\Debug\net5.0\Commons.csproj.CoreCompil
 C:\Users\hp\source\repos\INEC\Commons\obj\Debug\net5.0\Commons.dll
 C:\Users\hp\source\repos\INEC\Commons\obj\Debug\net5.0\ref\Commons.dll
 C:\Users\hp\source\repos\INEC\Commons\obj\Debug\net5.0\Commons.pdb
+C:\Users\cokereke\Git Repository\INEC\Commons\bin\Debug\net5.0\Commons.deps.json
+C:\Users\cokereke\Git Repository\INEC\Commons\bin\Debug\net5.0\Commons.dll
+C:\Users\cokereke\Git Repository\INEC\Commons\bin\Debug\net5.0\Commons.pdb
+C:\Users\cokereke\Git Repository\INEC\Commons\obj\Debug\net5.0\Commons.csproj.AssemblyReference.cache
+C:\Users\cokereke\Git Repository\INEC\Commons\obj\Debug\net5.0\Commons.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cokereke\Git Repository\INEC\Commons\obj\Debug\net5.0\Commons.AssemblyInfoInputs.cache
+C:\Users\cokereke\Git Repository\INEC\Commons\obj\Debug\net5.0\Commons.AssemblyInfo.cs
+C:\Users\cokereke\Git Repository\INEC\Commons\obj\Debug\net5.0\Commons.csproj.CoreCompileInputs.cache
+C:\Users\cokereke\Git Repository\INEC\Commons\obj\Debug\net5.0\Commons.dll
+C:\Users\cokereke\Git Repository\INEC\Commons\obj\Debug\net5.0\refint\Commons.dll
+C:\Users\cokereke\Git Repository\INEC\Commons\obj\Debug\net5.0\Commons.pdb
+C:\Users\cokereke\Git Repository\INEC\Commons\obj\Debug\net5.0\ref\Commons.dll

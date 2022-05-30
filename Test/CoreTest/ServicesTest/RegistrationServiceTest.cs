@@ -101,4 +101,14 @@ namespace Test.CoreTest.ServicesTest
             Assert.That(actual, Is.Null);
         }
     }
+
+    public partial class RegistrationServiceTest
+    {
+        //Candidate
+    }
+
+    public partial class RegistrationServiceTest
+    {
+        //Party
+    }
 }

@@ -18,6 +18,16 @@ namespace Core.Services
             _voterRepo = voterRepository;
         }
 
+        public Task<Candidate> RegisterNewCandidate(CandidateRegDTO model)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Party> RegisterNewParty(PartyRegDTO model)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<Voter> RegisterNewVoter(VoterRegDTO model)
         {
             Voter newVoter = new Voter()

@@ -11,5 +11,7 @@ namespace Core.Contracts
     public interface IRegistrationService
     {
         Task<Voter> RegisterNewVoter(VoterRegDTO model);
+        Task<Candidate> RegisterNewCandidate(CandidateRegDTO model);
+        Task<Party> RegisterNewParty(PartyRegDTO model);
     }
 }
