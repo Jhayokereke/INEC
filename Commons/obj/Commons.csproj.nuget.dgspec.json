@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cokereke\\Git Repository\\INEC\\Commons\\Commons.csproj": {}
+    "E:\\Project Files\\C# sandbox\\INEC\\Commons\\Commons.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cokereke\\Git Repository\\INEC\\Commons\\Commons.csproj": {
+    "E:\\Project Files\\C# sandbox\\INEC\\Commons\\Commons.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cokereke\\Git Repository\\INEC\\Commons\\Commons.csproj",
+        "projectUniqueName": "E:\\Project Files\\C# sandbox\\INEC\\Commons\\Commons.csproj",
         "projectName": "Commons",
-        "projectPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\Commons\\Commons.csproj",
-        "packagesPath": "C:\\Users\\cokereke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\Commons\\obj\\",
+        "projectPath": "E:\\Project Files\\C# sandbox\\INEC\\Commons\\Commons.csproj",
+        "packagesPath": "C:\\Users\\RaphaelIsaac\\.nuget\\packages\\",
+        "outputPath": "E:\\Project Files\\C# sandbox\\INEC\\Commons\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cokereke\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\RaphaelIsaac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }

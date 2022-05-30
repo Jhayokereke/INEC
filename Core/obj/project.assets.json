@@ -65,19 +65,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cokereke\\.nuget\\packages\\": {}
+    "C:\\Users\\RaphaelIsaac\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cokereke\\Git Repository\\INEC\\Core\\Core.csproj",
+      "projectUniqueName": "E:\\Project Files\\C# sandbox\\INEC\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\Core\\Core.csproj",
-      "packagesPath": "C:\\Users\\cokereke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\Core\\obj\\",
+      "projectPath": "E:\\Project Files\\C# sandbox\\INEC\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\RaphaelIsaac\\.nuget\\packages\\",
+      "outputPath": "E:\\Project Files\\C# sandbox\\INEC\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\cokereke\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\RaphaelIsaac\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -91,14 +91,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\cokereke\\Git Repository\\INEC\\Commons\\Commons.csproj": {
-              "projectPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\Commons\\Commons.csproj"
+            "E:\\Project Files\\C# sandbox\\INEC\\Commons\\Commons.csproj": {
+              "projectPath": "E:\\Project Files\\C# sandbox\\INEC\\Commons\\Commons.csproj"
             },
-            "C:\\Users\\cokereke\\Git Repository\\INEC\\Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\Data\\Data.csproj"
+            "E:\\Project Files\\C# sandbox\\INEC\\Data\\Data.csproj": {
+              "projectPath": "E:\\Project Files\\C# sandbox\\INEC\\Data\\Data.csproj"
             },
-            "C:\\Users\\cokereke\\Git Repository\\INEC\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\Models\\Models.csproj"
+            "E:\\Project Files\\C# sandbox\\INEC\\Models\\Models.csproj": {
+              "projectPath": "E:\\Project Files\\C# sandbox\\INEC\\Models\\Models.csproj"
             }
           }
         }
@@ -127,7 +127,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }
