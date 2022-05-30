@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Documents\\Coding\\C# Playground\\INEC\\Commons\\Commons.csproj": {}
+    "C:\\Users\\cokereke\\Git Repository\\INEC\\Commons\\Commons.csproj": {}
   },
   "projects": {
-    "E:\\Documents\\Coding\\C# Playground\\INEC\\Commons\\Commons.csproj": {
+    "C:\\Users\\cokereke\\Git Repository\\INEC\\Commons\\Commons.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Documents\\Coding\\C# Playground\\INEC\\Commons\\Commons.csproj",
+        "projectUniqueName": "C:\\Users\\cokereke\\Git Repository\\INEC\\Commons\\Commons.csproj",
         "projectName": "Commons",
-        "projectPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\Commons\\Commons.csproj",
-        "packagesPath": "C:\\Users\\UzorNwachukwu\\.nuget\\packages\\",
-        "outputPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\Commons\\obj\\",
+        "projectPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\Commons\\Commons.csproj",
+        "packagesPath": "C:\\Users\\cokereke\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\Commons\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\UzorNwachukwu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cokereke\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

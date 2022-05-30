@@ -83,19 +83,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\UzorNwachukwu\\.nuget\\packages\\": {}
+    "C:\\Users\\cokereke\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Documents\\Coding\\C# Playground\\INEC\\VotingApp\\VotingApp.csproj",
+      "projectUniqueName": "C:\\Users\\cokereke\\Git Repository\\INEC\\VotingApp\\VotingApp.csproj",
       "projectName": "VotingApp",
-      "projectPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\VotingApp\\VotingApp.csproj",
-      "packagesPath": "C:\\Users\\UzorNwachukwu\\.nuget\\packages\\",
-      "outputPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\VotingApp\\obj\\",
+      "projectPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\VotingApp\\VotingApp.csproj",
+      "packagesPath": "C:\\Users\\cokereke\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\VotingApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\UzorNwachukwu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cokereke\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -109,8 +109,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "E:\\Documents\\Coding\\C# Playground\\INEC\\Core\\Core.csproj": {
-              "projectPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\Core\\Core.csproj"
+            "C:\\Users\\cokereke\\Git Repository\\INEC\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\Core\\Core.csproj"
             }
           }
         }
@@ -134,12 +134,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.15, 5.0.15]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
