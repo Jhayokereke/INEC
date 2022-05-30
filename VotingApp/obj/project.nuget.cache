@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ovyttejIxDKxCQ94jRfl8DVzsskex0/oU+YX0GkLMGtB8XyfDWoHYI+U5DRBXvniYzyQtjUIpetJ2zebbfSoXg==",
+  "dgSpecHash": "Pg0rUy1cuF9hGTDwtQc7ZjYBfZytaKhwp5aRJKcHv3mmvoeKiUBuaiSj86ATgz3qkh+SuVonPe4l+U7ZavmNLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cokereke\\Git Repository\\INEC\\VotingApp\\VotingApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\Documents\\Coding\\C# Playground\\INEC\\VotingApp\\VotingApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\UzorNwachukwu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
+  ],
   "logs": []
 }
