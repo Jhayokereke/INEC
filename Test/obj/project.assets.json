@@ -5210,19 +5210,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\UzorNwachukwu\\.nuget\\packages\\": {}
+    "C:\\Users\\RaphaelIsaac\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Documents\\Coding\\C# Playground\\INEC\\Test\\Test.csproj",
+      "projectUniqueName": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\Test\\Test.csproj",
-      "packagesPath": "C:\\Users\\UzorNwachukwu\\.nuget\\packages\\",
-      "outputPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\Test\\obj\\",
+      "projectPath": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Test\\Test.csproj",
+      "packagesPath": "C:\\Users\\RaphaelIsaac\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\UzorNwachukwu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\RaphaelIsaac\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5236,8 +5236,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\Documents\\Coding\\C# Playground\\INEC\\Core\\Core.csproj": {
-              "projectPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\Core\\Core.csproj"
+            "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Core\\Core.csproj"
             }
           }
         }
@@ -5288,7 +5288,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }
