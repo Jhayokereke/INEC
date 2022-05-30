@@ -12,10 +12,12 @@ namespace Core.Services
     public class RegistrationService : IRegistrationService
     {
         private readonly IVoterRepository _voterRepo;
+        private readonly IPartyRepository _partyRepo;
 
-        public RegistrationService(IVoterRepository voterRepository)
+        public RegistrationService(IVoterRepository voterRepository, IPartyRepository partyRepo)
         {
             _voterRepo = voterRepository;
+            _partyRepo = partyRepo;
         }
 
         public Task<Candidate> RegisterNewCandidate(CandidateRegDTO model)
@@ -23,9 +25,21 @@ namespace Core.Services
             throw new NotImplementedException();
         }
 
-        public Task<Party> RegisterNewParty(PartyRegDTO model)
+        public async Task<Party> RegisterNewParty(PartyRegDTO model)
         {
-            throw new NotImplementedException();
+            var newParty = new Party() {
+                Name = model.Name
+            };
+
+            try
+            {
+               return await _partyRepo.AddAsync(newParty);
+            } catch(Exception ex)
+            {
+                
+            }
+
+            return null;
         }
 
         public async Task<Voter> RegisterNewVoter(VoterRegDTO model)
