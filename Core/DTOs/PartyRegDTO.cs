@@ -2,6 +2,6 @@
 {
     public class PartyRegDTO
     {
-        public string Name { get; set; }
+
     }
 }

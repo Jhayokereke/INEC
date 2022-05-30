@@ -5210,19 +5210,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\UzorNwachukwu\\.nuget\\packages\\": {}
+    "C:\\Users\\cokereke\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Documents\\Coding\\C# Playground\\INEC\\Test\\Test.csproj",
+      "projectUniqueName": "C:\\Users\\cokereke\\Git Repository\\INEC\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\Test\\Test.csproj",
-      "packagesPath": "C:\\Users\\UzorNwachukwu\\.nuget\\packages\\",
-      "outputPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\Test\\obj\\",
+      "projectPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\Test\\Test.csproj",
+      "packagesPath": "C:\\Users\\cokereke\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\UzorNwachukwu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cokereke\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5236,8 +5236,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\Documents\\Coding\\C# Playground\\INEC\\Core\\Core.csproj": {
-              "projectPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\Core\\Core.csproj"
+            "C:\\Users\\cokereke\\Git Repository\\INEC\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\Core\\Core.csproj"
             }
           }
         }
