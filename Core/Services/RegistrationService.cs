@@ -12,16 +12,26 @@ namespace Core.Services
     public class RegistrationService : IRegistrationService
     {
         private readonly IVoterRepository _voterRepo;
+        private readonly ICandidateRepository _candidateRepository;
 
-        public RegistrationService(IVoterRepository voterRepository)
+        public RegistrationService(IVoterRepository voterRepository, ICandidateRepository candidateRepository)
         {
             _voterRepo = voterRepository;
+            _candidateRepository = candidateRepository;
         }
 
-        public Task<Candidate> RegisterNewCandidate(CandidateRegDTO model)
+        public async Task<Candidate> RegisterNewCandidate(CandidateRegDTO model)
         {
-            throw new NotImplementedException();
+            var candidate = new Candidate()
+            {
+                Name = model.Name,
+                CreatedOn = DateTime.Now,
+            };
+
+            var result = await _candidateRepository.AddAsync(candidate);
+            return await Task.FromResult(result);
         }
+        
 
         public Task<Party> RegisterNewParty(PartyRegDTO model)
         {
@@ -54,6 +64,16 @@ namespace Core.Services
 
     public class RegistrationServiceMock : IRegistrationService
     {
+        public Task<Candidate> RegisterNewCandidate(CandidateRegDTO model)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Party> RegisterNewParty(PartyRegDTO model)
+        {
+            throw new NotImplementedException();
+        }
+
         public Task<Voter> RegisterNewVoter(VoterRegDTO model)
         {
             return Task.Run(() => new Voter()

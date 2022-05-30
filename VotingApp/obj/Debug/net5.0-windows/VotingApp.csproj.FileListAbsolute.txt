@@ -55,3 +55,32 @@ C:\Users\cokereke\Git Repository\INEC\VotingApp\obj\Debug\net5.0-windows\refint\
 C:\Users\cokereke\Git Repository\INEC\VotingApp\obj\Debug\net5.0-windows\VotingApp.pdb
 C:\Users\cokereke\Git Repository\INEC\VotingApp\obj\Debug\net5.0-windows\VotingApp.genruntimeconfig.cache
 C:\Users\cokereke\Git Repository\INEC\VotingApp\obj\Debug\net5.0-windows\ref\VotingApp.dll
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\obj\Debug\net5.0-windows\VotingApp.csproj.AssemblyReference.cache
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\obj\Debug\net5.0-windows\VotingApp.Form1.resources
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\obj\Debug\net5.0-windows\VotingApp.Form2.resources
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\obj\Debug\net5.0-windows\VotingApp.Properties.Resources.resources
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\obj\Debug\net5.0-windows\VotingApp.csproj.GenerateResource.cache
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\obj\Debug\net5.0-windows\VotingApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\obj\Debug\net5.0-windows\VotingApp.AssemblyInfoInputs.cache
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\obj\Debug\net5.0-windows\VotingApp.AssemblyInfo.cs
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\obj\Debug\net5.0-windows\VotingApp.csproj.CoreCompileInputs.cache
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\obj\Debug\net5.0-windows\VotingApp.dll
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\obj\Debug\net5.0-windows\refint\VotingApp.dll
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\obj\Debug\net5.0-windows\VotingApp.pdb
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\bin\Debug\net5.0-windows\VotingApp.exe
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\bin\Debug\net5.0-windows\VotingApp.deps.json
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\bin\Debug\net5.0-windows\VotingApp.runtimeconfig.json
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\bin\Debug\net5.0-windows\VotingApp.runtimeconfig.dev.json
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\bin\Debug\net5.0-windows\VotingApp.dll
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\bin\Debug\net5.0-windows\VotingApp.pdb
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\bin\Debug\net5.0-windows\Commons.dll
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\bin\Debug\net5.0-windows\Core.dll
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\bin\Debug\net5.0-windows\Data.dll
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\bin\Debug\net5.0-windows\Models.dll
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\bin\Debug\net5.0-windows\Core.pdb
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\bin\Debug\net5.0-windows\Commons.pdb
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\bin\Debug\net5.0-windows\Data.pdb
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\bin\Debug\net5.0-windows\Models.pdb
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\obj\Debug\net5.0-windows\VotingApp.csproj.CopyComplete
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\obj\Debug\net5.0-windows\VotingApp.genruntimeconfig.cache
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\VotingApp\obj\Debug\net5.0-windows\ref\VotingApp.dll

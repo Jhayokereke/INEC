@@ -13,7 +13,7 @@ using Moq;
 
 namespace Test.CoreTest.ServicesTest
 {
-    public class RegistrationServiceTest
+    public partial class RegistrationServiceTest
     {
         IVoterRepository _voterRepo;
         IRegistrationService _regServ;
@@ -32,7 +32,14 @@ namespace Test.CoreTest.ServicesTest
                     PollingUnit = new PollingUnit("ABS")
                 }));
 
-            _regServ = regServMock.Object;
+            regServMock.Setup(s => s.RegisterNewCandidate(It.IsAny<CandidateRegDTO>()))
+                        .Returns(Task.Run(() => new Candidate()
+                        {
+                            Name = "Ifunnanya William"
+                        }));
+
+                            
+           _regServ = regServMock.Object;
         }
 
         [Test]
@@ -61,6 +68,7 @@ namespace Test.CoreTest.ServicesTest
         public async Task RegisterNewVoter_ShouldCallVoterRepoAddAsyncMethod()
         {
             //Arrange
+            var candidateRepo = new Mock<ICandidateRepository>();
             var voterRepoMock = new Mock<IVoterRepository>();
             voterRepoMock.Setup(v => v.AddAsync(It.IsAny<Voter>()))
                 .Returns(Task.Run(() => new Voter()
@@ -74,7 +82,7 @@ namespace Test.CoreTest.ServicesTest
                 }));
             _voterRepo = voterRepoMock.Object;
 
-            RegistrationService regServ = new RegistrationService(_voterRepo);
+            RegistrationService regServ = new RegistrationService(_voterRepo, candidateRepo.Object);
 
             //Act
             var actual = await regServ.RegisterNewVoter(new VoterRegDTO());
@@ -87,12 +95,14 @@ namespace Test.CoreTest.ServicesTest
         public async Task RegisterNewVoter_ShouldReturnNullWhenErrorIsThrown()
         {
             //Arrange
+            var candidateRepo = new Mock<ICandidateRepository>();
             var voterRepoMock = new Mock<IVoterRepository>();
             voterRepoMock.Setup(v => v.AddAsync(It.IsAny<Voter>()))
                 .Throws(() => new Exception());
             _voterRepo = voterRepoMock.Object;
+            
 
-            RegistrationService regServ = new RegistrationService(_voterRepo);
+            RegistrationService regServ = new RegistrationService(_voterRepo, candidateRepo.Object);
 
             //Act
             var actual = await regServ.RegisterNewVoter(new VoterRegDTO());
@@ -105,6 +115,15 @@ namespace Test.CoreTest.ServicesTest
     public partial class RegistrationServiceTest
     {
         //Candidate
+        [Test]
+        public async Task RegisterNewCandidate_ShouldReturnTaskofCandidate()
+        {
+            var actual = await _regServ.RegisterNewCandidate(
+                new CandidateRegDTO());
+
+            Assert.That(actual, Is.TypeOf<Candidate>());
+            Assert.That(actual.Name, Is.EqualTo("Ifunnanya William"));
+        }
     }
 
     public partial class RegistrationServiceTest
