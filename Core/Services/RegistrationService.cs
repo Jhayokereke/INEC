@@ -12,30 +12,55 @@ namespace Core.Services
     public class RegistrationService : IRegistrationService
     {
         private readonly IVoterRepository _voterRepo;
+        private readonly IPartyRepository _partyRepo;
         private readonly ICandidateRepository _candidateRepository;
 
-        public RegistrationService(IVoterRepository voterRepository, ICandidateRepository candidateRepository)
+        public RegistrationService(IVoterRepository voterRepository, IPartyRepository partyRepo, ICandidateRepository candidateRepository)
         {
             _voterRepo = voterRepository;
+            _partyRepo = partyRepo;
             _candidateRepository = candidateRepository;
         }
 
         public async Task<Candidate> RegisterNewCandidate(CandidateRegDTO model)
         {
-            var candidate = new Candidate()
+            try
             {
-                Name = model.Name,
-                CreatedOn = DateTime.Now,
+                var candidate = new Candidate()
+                {
+                    Name = model.Name,
+                    CreatedOn = DateTime.Now
+                };
+
+
+                var result = await _candidateRepository.AddAsync(candidate);
+                return await Task.FromResult(result);
+            }
+            catch (Exception ex)
+            {
+                //Log Exception
+            }
+            return null;
+
+
+
+        }
+
+        public async Task<Party> RegisterNewParty(PartyRegDTO model)
+        {
+            var newParty = new Party() {
+                Name = model.Name
             };
 
-            var result = await _candidateRepository.AddAsync(candidate);
-            return await Task.FromResult(result);
-        }
-        
+            try
+            {
+               return await _partyRepo.AddAsync(newParty);
+            } catch(Exception ex)
+            {
+                
+            }
 
-        public Task<Party> RegisterNewParty(PartyRegDTO model)
-        {
-            throw new NotImplementedException();
+            return null;
         }
 
         public async Task<Voter> RegisterNewVoter(VoterRegDTO model)
@@ -64,15 +89,6 @@ namespace Core.Services
 
     public class RegistrationServiceMock : IRegistrationService
     {
-        public Task<Candidate> RegisterNewCandidate(CandidateRegDTO model)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<Party> RegisterNewParty(PartyRegDTO model)
-        {
-            throw new NotImplementedException();
-        }
 
         public Task<Voter> RegisterNewVoter(VoterRegDTO model)
         {
