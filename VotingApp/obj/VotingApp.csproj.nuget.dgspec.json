@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Documents\\Coding\\C# Playground\\INEC\\VotingApp\\VotingApp.csproj": {}
+    "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\VotingApp\\VotingApp.csproj": {}
   },
   "projects": {
-    "E:\\Documents\\Coding\\C# Playground\\INEC\\Commons\\Commons.csproj": {
+    "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Commons\\Commons.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Documents\\Coding\\C# Playground\\INEC\\Commons\\Commons.csproj",
+        "projectUniqueName": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Commons\\Commons.csproj",
         "projectName": "Commons",
-        "projectPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\Commons\\Commons.csproj",
-        "packagesPath": "C:\\Users\\UzorNwachukwu\\.nuget\\packages\\",
-        "outputPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\Commons\\obj\\",
+        "projectPath": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Commons\\Commons.csproj",
+        "packagesPath": "C:\\Users\\RaphaelIsaac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Commons\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\UzorNwachukwu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\RaphaelIsaac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,21 +54,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Documents\\Coding\\C# Playground\\INEC\\Core\\Core.csproj": {
+    "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Documents\\Coding\\C# Playground\\INEC\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\UzorNwachukwu\\.nuget\\packages\\",
-        "outputPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\Core\\obj\\",
+        "projectPath": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\RaphaelIsaac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\UzorNwachukwu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\RaphaelIsaac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,14 +82,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Documents\\Coding\\C# Playground\\INEC\\Commons\\Commons.csproj": {
-                "projectPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\Commons\\Commons.csproj"
+              "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Commons\\Commons.csproj": {
+                "projectPath": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Commons\\Commons.csproj"
               },
-              "E:\\Documents\\Coding\\C# Playground\\INEC\\Data\\Data.csproj": {
-                "projectPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\Data\\Data.csproj"
+              "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Data\\Data.csproj"
               },
-              "E:\\Documents\\Coding\\C# Playground\\INEC\\Models\\Models.csproj": {
-                "projectPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\Models\\Models.csproj"
+              "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Models\\Models.csproj"
               }
             }
           }
@@ -118,21 +118,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Documents\\Coding\\C# Playground\\INEC\\Data\\Data.csproj": {
+    "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Documents\\Coding\\C# Playground\\INEC\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\UzorNwachukwu\\.nuget\\packages\\",
-        "outputPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\Data\\obj\\",
+        "projectPath": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\RaphaelIsaac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\UzorNwachukwu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\RaphaelIsaac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -146,8 +146,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Documents\\Coding\\C# Playground\\INEC\\Models\\Models.csproj": {
-                "projectPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\Models\\Models.csproj"
+              "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Models\\Models.csproj"
               }
             }
           }
@@ -176,21 +176,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Documents\\Coding\\C# Playground\\INEC\\Models\\Models.csproj": {
+    "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Documents\\Coding\\C# Playground\\INEC\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\UzorNwachukwu\\.nuget\\packages\\",
-        "outputPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\Models\\obj\\",
+        "projectPath": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\RaphaelIsaac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\UzorNwachukwu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\RaphaelIsaac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -204,8 +204,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Documents\\Coding\\C# Playground\\INEC\\Commons\\Commons.csproj": {
-                "projectPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\Commons\\Commons.csproj"
+              "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Commons\\Commons.csproj": {
+                "projectPath": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Commons\\Commons.csproj"
               }
             }
           }
@@ -234,21 +234,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Documents\\Coding\\C# Playground\\INEC\\VotingApp\\VotingApp.csproj": {
+    "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\VotingApp\\VotingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Documents\\Coding\\C# Playground\\INEC\\VotingApp\\VotingApp.csproj",
+        "projectUniqueName": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\VotingApp\\VotingApp.csproj",
         "projectName": "VotingApp",
-        "projectPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\VotingApp\\VotingApp.csproj",
-        "packagesPath": "C:\\Users\\UzorNwachukwu\\.nuget\\packages\\",
-        "outputPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\VotingApp\\obj\\",
+        "projectPath": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\VotingApp\\VotingApp.csproj",
+        "packagesPath": "C:\\Users\\RaphaelIsaac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\VotingApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\UzorNwachukwu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\RaphaelIsaac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -262,8 +262,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "E:\\Documents\\Coding\\C# Playground\\INEC\\Core\\Core.csproj": {
-                "projectPath": "E:\\Documents\\Coding\\C# Playground\\INEC\\Core\\Core.csproj"
+              "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\RaphaelIsaac\\Desktop\\INEC\\Core\\Core.csproj"
               }
             }
           }
@@ -287,12 +287,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.15, 5.0.15]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -301,7 +295,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
