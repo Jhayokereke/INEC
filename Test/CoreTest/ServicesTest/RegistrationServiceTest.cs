@@ -1,19 +1,16 @@
 ﻿using NUnit.Framework;
 using Core;
 using Core.Contracts;
-using Core.Persistence;
-using Data;
 using Core.DTOs;
 using Models;
 using System.Threading.Tasks;
 using System;
-using Commons.Enums;
 using Core.Services;
 using Moq;
 
 namespace Test.CoreTest.ServicesTest
 {
-    public class RegistrationServiceTest
+    public partial class RegistrationServiceTest
     {
         IVoterRepository _voterRepo;
         IRegistrationService _regServ;
@@ -74,7 +71,7 @@ namespace Test.CoreTest.ServicesTest
                 }));
             _voterRepo = voterRepoMock.Object;
 
-            RegistrationService regServ = new RegistrationService(_voterRepo);
+            RegistrationService regServ = new RegistrationService(_voterRepo, null, null);
 
             //Act
             var actual = await regServ.RegisterNewVoter(new VoterRegDTO());
@@ -92,7 +89,7 @@ namespace Test.CoreTest.ServicesTest
                 .Throws(() => new Exception());
             _voterRepo = voterRepoMock.Object;
 
-            RegistrationService regServ = new RegistrationService(_voterRepo);
+            RegistrationService regServ = new RegistrationService(_voterRepo, null, null);
 
             //Act
             var actual = await regServ.RegisterNewVoter(new VoterRegDTO());

@@ -2,6 +2,6 @@
 {
     public class CandidateRegDTO
     {
-
+        public string Name { get; set; }
     }
 }

@@ -264,6 +264,9 @@
             "projectReferences": {
               "C:\\Users\\cokereke\\Git Repository\\INEC\\Core\\Core.csproj": {
                 "projectPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\Core\\Core.csproj"
+              },
+              "C:\\Users\\cokereke\\Git Repository\\INEC\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\Models\\Models.csproj"
               }
             }
           }

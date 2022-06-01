@@ -5203,6 +5203,7 @@
     "net5.0": [
       "Core >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
+      "Models >= 1.0.0",
       "Moq >= 4.17.1",
       "NUnit >= 3.13.1",
       "NUnit3TestAdapter >= 3.17.0",
@@ -5238,6 +5239,9 @@
           "projectReferences": {
             "C:\\Users\\cokereke\\Git Repository\\INEC\\Core\\Core.csproj": {
               "projectPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\Core\\Core.csproj"
+            },
+            "C:\\Users\\cokereke\\Git Repository\\INEC\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\Models\\Models.csproj"
             }
           }
         }

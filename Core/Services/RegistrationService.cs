@@ -12,20 +12,55 @@ namespace Core.Services
     public class RegistrationService : IRegistrationService
     {
         private readonly IVoterRepository _voterRepo;
+        private readonly IPartyRepository _partyRepo;
+        private readonly ICandidateRepository _candidateRepository;
 
-        public RegistrationService(IVoterRepository voterRepository)
+        public RegistrationService(IVoterRepository voterRepository, IPartyRepository partyRepo, ICandidateRepository candidateRepository)
         {
             _voterRepo = voterRepository;
+            _partyRepo = partyRepo;
+            _candidateRepository = candidateRepository;
         }
 
-        public Task<Candidate> RegisterNewCandidate(CandidateRegDTO model)
+        public async Task<Candidate> RegisterNewCandidate(CandidateRegDTO model)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var candidate = new Candidate()
+                {
+                    Name = model.Name,
+                    CreatedOn = DateTime.Now
+                };
+
+
+                var result = await _candidateRepository.AddAsync(candidate);
+                return await Task.FromResult(result);
+            }
+            catch (Exception ex)
+            {
+                //Log Exception
+            }
+            return null;
+
+
+
         }
 
-        public Task<Party> RegisterNewParty(PartyRegDTO model)
+        public async Task<Party> RegisterNewParty(PartyRegDTO model)
         {
-            throw new NotImplementedException();
+            var newParty = new Party() {
+                Name = model.Name
+            };
+
+            try
+            {
+               return await _partyRepo.AddAsync(newParty);
+            } catch(Exception ex)
+            {
+                
+            }
+
+            return null;
         }
 
         public async Task<Voter> RegisterNewVoter(VoterRegDTO model)
@@ -54,6 +89,7 @@ namespace Core.Services
 
     public class RegistrationServiceMock : IRegistrationService
     {
+
         public Task<Voter> RegisterNewVoter(VoterRegDTO model)
         {
             return Task.Run(() => new Voter()
