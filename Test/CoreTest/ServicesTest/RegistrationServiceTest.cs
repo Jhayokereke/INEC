@@ -1,13 +1,10 @@
 ﻿using NUnit.Framework;
 using Core;
 using Core.Contracts;
-using Core.Persistence;
-using Data;
 using Core.DTOs;
 using Models;
 using System.Threading.Tasks;
 using System;
-using Commons.Enums;
 using Core.Services;
 using Moq;
 
