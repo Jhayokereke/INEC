@@ -83,19 +83,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cokereke\\.nuget\\packages\\": {}
+    "C:\\Users\\IFUNANYAONAH\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cokereke\\Git Repository\\INEC\\VotingApp\\VotingApp.csproj",
+      "projectUniqueName": "C:\\Users\\IFUNANYAONAH\\Documents\\Projects\\WPF\\INEC-1\\VotingApp\\VotingApp.csproj",
       "projectName": "VotingApp",
-      "projectPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\VotingApp\\VotingApp.csproj",
-      "packagesPath": "C:\\Users\\cokereke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\VotingApp\\obj\\",
+      "projectPath": "C:\\Users\\IFUNANYAONAH\\Documents\\Projects\\WPF\\INEC-1\\VotingApp\\VotingApp.csproj",
+      "packagesPath": "C:\\Users\\IFUNANYAONAH\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\IFUNANYAONAH\\Documents\\Projects\\WPF\\INEC-1\\VotingApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\cokereke\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\IFUNANYAONAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -109,8 +109,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\cokereke\\Git Repository\\INEC\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\Core\\Core.csproj"
+            "C:\\Users\\IFUNANYAONAH\\Documents\\Projects\\WPF\\INEC-1\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\IFUNANYAONAH\\Documents\\Projects\\WPF\\INEC-1\\Core\\Core.csproj"
             }
           }
         }
@@ -142,7 +142,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

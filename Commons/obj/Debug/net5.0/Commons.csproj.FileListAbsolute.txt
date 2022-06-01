@@ -22,3 +22,15 @@ C:\Users\cokereke\Git Repository\INEC\Commons\obj\Debug\net5.0\Commons.dll
 C:\Users\cokereke\Git Repository\INEC\Commons\obj\Debug\net5.0\refint\Commons.dll
 C:\Users\cokereke\Git Repository\INEC\Commons\obj\Debug\net5.0\Commons.pdb
 C:\Users\cokereke\Git Repository\INEC\Commons\obj\Debug\net5.0\ref\Commons.dll
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\Commons\bin\Debug\net5.0\Commons.deps.json
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\Commons\bin\Debug\net5.0\Commons.dll
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\Commons\bin\Debug\net5.0\Commons.pdb
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\Commons\obj\Debug\net5.0\Commons.csproj.AssemblyReference.cache
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\Commons\obj\Debug\net5.0\Commons.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\Commons\obj\Debug\net5.0\Commons.AssemblyInfoInputs.cache
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\Commons\obj\Debug\net5.0\Commons.AssemblyInfo.cs
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\Commons\obj\Debug\net5.0\Commons.csproj.CoreCompileInputs.cache
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\Commons\obj\Debug\net5.0\Commons.dll
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\Commons\obj\Debug\net5.0\refint\Commons.dll
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\Commons\obj\Debug\net5.0\Commons.pdb
+C:\Users\IFUNANYAONAH\Documents\Projects\WPF\INEC-1\Commons\obj\Debug\net5.0\ref\Commons.dll

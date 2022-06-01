@@ -5203,7 +5203,6 @@
     "net5.0": [
       "Core >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
-      "Models >= 1.0.0",
       "Moq >= 4.17.1",
       "NUnit >= 3.13.1",
       "NUnit3TestAdapter >= 3.17.0",
@@ -5211,19 +5210,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cokereke\\.nuget\\packages\\": {}
+    "C:\\Users\\IFUNANYAONAH\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cokereke\\Git Repository\\INEC\\Test\\Test.csproj",
+      "projectUniqueName": "C:\\Users\\IFUNANYAONAH\\Documents\\Projects\\WPF\\INEC-1\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\Test\\Test.csproj",
-      "packagesPath": "C:\\Users\\cokereke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\Test\\obj\\",
+      "projectPath": "C:\\Users\\IFUNANYAONAH\\Documents\\Projects\\WPF\\INEC-1\\Test\\Test.csproj",
+      "packagesPath": "C:\\Users\\IFUNANYAONAH\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\IFUNANYAONAH\\Documents\\Projects\\WPF\\INEC-1\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\cokereke\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\IFUNANYAONAH\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5237,11 +5236,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\cokereke\\Git Repository\\INEC\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\Core\\Core.csproj"
-            },
-            "C:\\Users\\cokereke\\Git Repository\\INEC\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\cokereke\\Git Repository\\INEC\\Models\\Models.csproj"
+            "C:\\Users\\IFUNANYAONAH\\Documents\\Projects\\WPF\\INEC-1\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\IFUNANYAONAH\\Documents\\Projects\\WPF\\INEC-1\\Core\\Core.csproj"
             }
           }
         }
@@ -5292,7 +5288,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
